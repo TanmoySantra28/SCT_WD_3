@@ -109,6 +109,7 @@ body{
 }
 
 .quiz-container{
+    display: block;
     width: 480px;
 }
 
@@ -215,7 +216,6 @@ body{
 }
 
 .result-container{
-    display: block;
     text-align: center;
     padding: 40px;
     width: 410px;
