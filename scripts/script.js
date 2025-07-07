@@ -1,10 +1,12 @@
 const answerOptions = document.querySelector(".answer-options");
+const nextQuestionBtn = document.querySelector(".next-question-btn");
+
 let quizCategory = "JavaScript";
 
 
 //fetch a random question based on selected catagory
 const getRandomQuestion = () => {
-    const catagoryQuestions = questions.find(cat => cat.category.toLowerCase() === quizCategory.toLowerCase()).questions;
+    const catagoryQuestions = questions.find(cat => cat.category.toLowerCase() === quizCategory.toLowerCase()).questions || [];
     
     const randomQuestion = catagoryQuestions[Math.floor(Math.random() * catagoryQuestions.length)];
     return randomQuestion;
@@ -33,3 +35,5 @@ const renderQuestion = () => {
 }
 
 renderQuestion();
+
+nextQuestionBtn.addEventListener("click", renderQuestion);
