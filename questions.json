@@ -1,0 +1,617 @@
+[
+  {
+    "category": "JavaScript",
+    "questions": [
+      {
+        "question": "What is the output of `typeof null` in JavaScript?",
+        "options": ["object", "null", "undefined", "boolean"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which company developed JavaScript?",
+        "options": ["Mozilla", "Netscape", "Microsoft", "Oracle"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the use of `isNaN()` function?",
+        "options": [
+          "Checks if a value is null",
+          "Checks if a value is a number",
+          "Checks if a value is NaN",
+          "Checks if a value is undefined"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What symbol is used for single-line comments in JavaScript?",
+        "options": ["//", "/*", "<!--", "#"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which method converts JSON to a JavaScript object?",
+        "options": ["JSON.parse()", "JSON.stringify()", "JSON.toObject()", "JSON.convert()"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which keyword is used to declare a constant in JavaScript?",
+        "options": ["const", "let", "var", "constant"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which method is used to add elements to the end of an array?",
+        "options": ["push()", "pop()", "shift()", "unshift()"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "What is the result of `'5' + 3` in JavaScript?",
+        "options": ["8", "'53'", "'8'", "NaN"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which operator is used to compare both value and type?",
+        "options": ["==", "===", "=", "!="],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the output of `Boolean('false')`?",
+        "options": ["true", "false", "undefined", "null"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which function is used to delay execution in JavaScript?",
+        "options": ["setInterval()", "setTimeout()", "delay()", "wait()"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "How do you write a function in JavaScript?",
+        "options": ["function:myFunc()", "function myFunc()", "function = myFunc()", "def myFunc()"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What will `typeof NaN` return?",
+        "options": ["number", "NaN", "undefined", "object"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "What is the scope of a variable declared with `var` inside a function?",
+        "options": ["Global", "Block", "Function", "Module"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which method removes the last item from an array?",
+        "options": ["shift()", "pop()", "unshift()", "splice()"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "How to write an IF statement in JavaScript?",
+        "options": ["if i == 5 then", "if (i == 5)", "if i = 5", "if i == 5 then {}"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which event occurs when the user clicks on an HTML element?",
+        "options": ["onmouseover", "onchange", "onclick", "onmouseclick"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does the `this` keyword refer to in JavaScript (in a method)?",
+        "options": ["The current function", "The global object", "The parent object", "The object it belongs to"],
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the purpose of `use strict`?",
+        "options": ["Enables modern features", "Disables errors", "Prevents undeclared variables", "Slows down the code"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What will `Array.isArray([])` return?",
+        "options": ["true", "false", "undefined", "object"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "What is the output of `'2' * '3'`?",
+        "options": ["6", "'6'", "'23'", "NaN"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "What is the default value of an uninitialized variable?",
+        "options": ["null", "undefined", "0", "false"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which object represents the browser window in JavaScript?",
+        "options": ["screen", "document", "window", "navigator"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which method converts a number to a string?",
+        "options": ["toString()", "String()", "convert()", "Both 1 and 2"],
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the correct way to write a comment in JavaScript?",
+        "options": ["<!-- comment -->", "/* comment */", "// comment", "All of the above"],
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which built-in method returns the length of a string?",
+        "options": ["length()", "getLength()", "len", "length"],
+        "correctAnswer": 3
+      },
+      {
+        "question": "What does `document.getElementById()` do?",
+        "options": ["Gets an element by class", "Gets an element by tag", "Gets an element by id", "Creates a new element"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of these is not a JavaScript data type?",
+        "options": ["Number", "String", "Float", "Boolean"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does `===` compare?",
+        "options": ["Value only", "Type only", "Value and Type", "Reference only"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which operator is used to assign a value to a variable?",
+        "options": ["*", "=", "==", "!="],
+        "correctAnswer": 1
+      }
+    ]
+  },
+  {
+    "category": "Java",
+    "questions": [
+      {
+        "question": "Which keyword is used to inherit a class in Java?",
+        "options": ["extends", "implements", "inherits", "super"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which of the following is not a Java feature?",
+        "options": ["Object-oriented", "Use of pointers", "Portable", "Dynamic"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which method must be defined in a Java application?",
+        "options": ["start()", "main()", "run()", "init()"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which keyword is used to prevent inheritance?",
+        "options": ["static", "final", "private", "protected"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the default value of a boolean variable in Java?",
+        "options": ["true", "false", "0", "null"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which keyword is used to implement an interface in Java?",
+        "options": ["extends", "inherits", "implements", "interface"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of these is a valid Java identifier?",
+        "options": ["2variable", "var$", "class", "import"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which package contains the Scanner class in Java?",
+        "options": ["java.util", "java.io", "java.lang", "java.awt"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which exception is thrown when dividing by zero in Java?",
+        "options": [
+          "NullPointerException",
+          "ArithmeticException",
+          "IOException",
+          "IndexOutOfBoundsException"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the size of an int variable in Java?",
+        "options": ["4 bytes", "2 bytes", "8 bytes", "1 byte"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "What does JVM stand for?",
+        "options": [
+          "Java Variable Method",
+          "Java Virtual Machine",
+          "Joint Virtual Memory",
+          "Java Verified Mode"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following is not a Java access modifier?",
+        "options": ["public", "private", "protected", "package"],
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which of these cannot be used for a variable name in Java?",
+        "options": ["identifier", "keyword", "underscore", "alphabet"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which operator is used for comparison in Java?",
+        "options": ["=", "==", ":=", "equals"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of these is a valid declaration of a char variable?",
+        "options": ["char ch = 'A';", "char ch = 'AB';", "char ch = A;", "char ch = \"A\";"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "What is the parent class of all classes in Java?",
+        "options": ["Object", "Class", "Main", "Base"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which statement is used to exit a loop?",
+        "options": ["exit", "stop", "break", "return"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which method is used to start a thread execution?",
+        "options": ["run()", "start()", "init()", "execute()"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which keyword is used to declare a constant?",
+        "options": ["final", "const", "static", "immutable"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which of these is not a primitive data type in Java?",
+        "options": ["int", "float", "String", "boolean"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which method is called automatically when an object is created?",
+        "options": ["finalize()", "constructor", "main()", "init()"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does 'static' mean in Java?",
+        "options": [
+          "Variable shared by all instances",
+          "Variable unique to each instance",
+          "A constant",
+          "A method that returns void"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which keyword is used to inherit from a superclass?",
+        "options": ["extends", "implements", "inherits", "super"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "What is the size of a boolean in Java?",
+        "options": ["1 bit", "1 byte", "Depends on JVM", "2 bytes"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which exception must be caught or declared to be thrown?",
+        "options": ["RuntimeException", "IOException", "NullPointerException", "ArithmeticException"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following is true about Java strings?",
+        "options": [
+          "Strings are mutable",
+          "Strings are objects",
+          "Strings can be changed after creation",
+          "Strings are primitive data types"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of these loops is guaranteed to execute at least once?",
+        "options": ["for", "while", "do-while", "foreach"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which method is used to compare two strings for equality?",
+        "options": ["equals()", "==", "compare()", "equal()"],
+        "correctAnswer": 0
+      }
+    ]
+  },
+  {
+    "category": "C",
+    "questions": [
+      {
+        "question": "Who is the father of the C language?",
+        "options": ["Dennis Ritchie", "Bjarne Stroustrup", "James Gosling", "Ken Thompson"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which function is used to print output in C?",
+        "options": ["printf()", "cout", "println()", "echo()"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which header file is required for input/output functions in C?",
+        "options": ["stdio.h", "conio.h", "stdlib.h", "string.h"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which symbol is used to denote a single-line comment in C?",
+        "options": ["//", "/*", "#", "--"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "What is the default return type of the main() function in C?",
+        "options": ["void", "int", "float", "char"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which operator is used to access the value at the address stored in a pointer?",
+        "options": ["&", "*", "->", "%"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which loop is guaranteed to run at least once?",
+        "options": ["for", "while", "do-while", "foreach"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which keyword is used to define a constant value in C?",
+        "options": ["constant", "const", "#define", "final"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following is not a valid variable name in C?",
+        "options": ["_var", "var2", "2var", "var_2"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which operator is used to check equality in C?",
+        "options": ["=", "==", "===", "!="],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which function is used to read a single character from the keyboard?",
+        "options": ["getchar()", "scanf()", "getch()", "gets()"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "What is the size of an int data type in most systems?",
+        "options": ["2 bytes", "4 bytes", "8 bytes", "Depends on compiler"],
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which statement is used to jump out of a loop in C?",
+        "options": ["exit", "break", "continue", "stop"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of these is a correct variable declaration in C?",
+        "options": ["int 2x;", "int x;", "int x 2;", "int x*;"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which header file contains the malloc() function?",
+        "options": ["stdlib.h", "stdio.h", "string.h", "malloc.h"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "What is the output of `printf(\"%d\", 'A');`?",
+        "options": ["A", "65", "Error", "0"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of these is a valid format specifier for a float?",
+        "options": ["%f", "%d", "%c", "%s"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "What is the correct way to declare an array of 10 integers?",
+        "options": ["int arr[10];", "int arr;", "int arr()", "int arr[9];"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which function is used to copy one string to another?",
+        "options": ["strcpy()", "strncpy()", "strcopy()", "copy()"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "What is the meaning of `&` operator in C?",
+        "options": [
+          "Address of a variable",
+          "Bitwise AND",
+          "Logical AND",
+          "Dereference operator"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which function is used to find the length of a string?",
+        "options": ["strlen()", "size()", "length()", "strlength()"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which operator is used for the conditional (ternary) operator?",
+        "options": ["?", ":", "if", "then"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "What will `sizeof(char)` return?",
+        "options": ["1", "2", "4", "Depends on system"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which keyword is used to stop a function from returning a value?",
+        "options": ["void", "null", "return", "stop"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which of these is used to define a structure in C?",
+        "options": ["struct", "class", "union", "typedef"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which of these is not a looping statement in C?",
+        "options": ["for", "while", "foreach", "do-while"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which keyword is used to declare a pointer?",
+        "options": ["ptr", "*", "pointer", "&"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of these is the correct syntax for a function pointer?",
+        "options": [
+          "int (*funcPtr)(int)",
+          "int *funcPtr(int)",
+          "int funcPtr*(int)",
+          "int funcPtr(int)*"
+        ],
+        "correctAnswer": 0
+      }
+    ]
+  },
+  {
+    "category": "DBMS",
+    "questions": [
+      {
+        "question": "What does DBMS stand for?",
+        "options": [
+          "Database Management System",
+          "Data Backup Management System",
+          "Digital Base Management System",
+          "Data Binary Management System"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which language is used to communicate with a database?",
+        "options": ["HTML", "SQL", "CSS", "JavaScript"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is a primary key in a database?",
+        "options": [
+          "A unique identifier for a record",
+          "A key that can be null",
+          "A foreign key",
+          "A non-unique identifier"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which normal form eliminates partial dependency?",
+        "options": ["1NF", "2NF", "3NF", "BCNF"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which command is used to delete all rows in a table but keep the structure?",
+        "options": ["DROP", "DELETE", "TRUNCATE", "REMOVE"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is a foreign key?",
+        "options": [
+          "A key that uniquely identifies a record",
+          "A key in one table that refers to the primary key in another",
+          "A key that cannot be null",
+          "A key used for encryption"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which SQL statement is used to retrieve data from a database?",
+        "options": ["SELECT", "GET", "FETCH", "RETRIEVE"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "What is the result of the SQL command `SELECT * FROM table WHERE 1=0;`?",
+        "options": ["All rows", "No rows", "Error", "First row"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which SQL clause is used to group rows?",
+        "options": ["GROUP BY", "ORDER BY", "WHERE", "HAVING"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "What does ACID stand for in DBMS?",
+        "options": [
+          "Atomicity, Consistency, Isolation, Durability",
+          "Access, Control, Integrity, Data",
+          "Atomicity, Control, Isolation, Data",
+          "Access, Consistency, Isolation, Durability"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which of these is not a type of join in SQL?",
+        "options": ["INNER JOIN", "OUTER JOIN", "SIDE JOIN", "CROSS JOIN"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is normalization?",
+        "options": [
+          "Process of organizing data to reduce redundancy",
+          "Process of backing up data",
+          "Process of encrypting data",
+          "Process of creating tables"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which SQL keyword is used to sort the result-set?",
+        "options": ["SORT BY", "ORDER BY", "GROUP BY", "FILTER BY"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is a transaction in DBMS?",
+        "options": [
+          "A sequence of operations performed as a single logical unit",
+          "A backup of the database",
+          "A query",
+          "A table"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which SQL statement is used to modify existing data?",
+        "options": ["UPDATE", "MODIFY", "CHANGE", "ALTER"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which command is used to remove a table from the database?",
+        "options": ["DELETE", "DROP", "REMOVE", "TRUNCATE"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of these is a DDL command?",
+        "options": ["SELECT", "INSERT", "CREATE", "UPDATE"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of these SQL functions returns the number of rows?",
+        "options": ["COUNT()", "SUM()", "MAX()", "MIN()"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "What is a view in DBMS?",
+        "options": [
+          "A virtual table based on the result-set of a query",
+          "A physical table",
+          "A backup table",
+          "An index"
+        ],
+        "correctAnswer": 0
+      }
+    ]
+  }
+]
