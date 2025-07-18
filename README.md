@@ -1,7 +1,7 @@
 # SCT_WD_3
 # Quiz App using JavaScript
 
-A stylish quiz application featuring multiple categories, question limits, timers, and a beautiful glassmorphism UI.
+A quiz application featuring multiple categories, question limits, timers, and a beautiful glassmorphism UI.
 
 ## Features
 
@@ -57,3 +57,10 @@ A stylish quiz application featuring multiple categories, question limits, timer
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/81a95f2a-68cd-4578-af7f-de19400125cb" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/723adab2-3b2f-4c4b-8936-0ef2413ef8ab" />
 
+## Contributing
+
+Contributions are welcome! Please feel free to submit a pull request or create an issue for any suggestions or improvements.
+
+## License
+
+This project is open-source and available under the MIT License.
